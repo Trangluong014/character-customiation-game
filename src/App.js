@@ -66,7 +66,7 @@ function App() {
   return (
     <div className="App">
       <div className="title">CHARACTER</div>
-      <div className="subtitle">CUSTOMIZATION</div>
+      <div className="subtitle">Customization</div>
       <div className="divider"></div>
 
       <div className="avatar-component">
@@ -75,63 +75,63 @@ function App() {
             <img
               src={process.env.PUBLIC_URL + getImgSource("body", body)}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
               src={process.env.PUBLIC_URL + getImgSource("eyes", eyes)}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
               src={process.env.PUBLIC_URL + getImgSource("hair", hair)}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
               src={process.env.PUBLIC_URL + getImgSource("layer_1", clothing1)}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
               src={process.env.PUBLIC_URL + getImgSource("layer_2", clothing2)}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
               src={process.env.PUBLIC_URL + getImgSource("layer_3", clothing3)}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
               src={process.env.PUBLIC_URL + getImgSource("mouths", mounth)}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
               src={process.env.PUBLIC_URL + "./character/noses.1.png"}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
               src={process.env.PUBLIC_URL + getImgSource("eyesbrows", eyebrows)}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
@@ -140,40 +140,40 @@ function App() {
                 process.env.PUBLIC_URL + getImgSource("facial_hair", facialHair)
               }
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
               src={process.env.PUBLIC_URL + getImgSource("earrings", earrings)}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
               src={process.env.PUBLIC_URL + getImgSource("glasses", glasses)}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
               src={process.env.PUBLIC_URL + getImgSource("hats", hat)}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
               src={process.env.PUBLIC_URL + getImgSource("neckwear", neckWear)}
               alt=""
-              height="250"
+              width="250"
               style={{ position: "absolute" }}
             ></img>
           </div>
           <div className="random">
-            <button className="button" onClick={randomize}>
+            <button className="button-random" onClick={randomize}>
               Random
             </button>
           </div>
@@ -181,7 +181,7 @@ function App() {
 
         <div className="component-list">
           <div className="list-wrapper">
-            <div className="list-title"> BODY </div>
+            <div className="list-title"> Body </div>
             <div className="list">
               {getArrayPart(17).map((item) => (
                 <button onClick={() => setBody(item)} className="image">
@@ -196,7 +196,7 @@ function App() {
           </div>
 
           <div className="list-wrapper">
-            <div className="list-title"> EYES </div>
+            <div className="list-title"> Eyes </div>
             <div className="list">
               {getArrayPart(17).map((item) => (
                 <button onClick={() => setEyes(item)} className="image">
@@ -211,7 +211,7 @@ function App() {
           </div>
 
           <div className="list-wrapper">
-            <div className="list-title"> HAIR </div>
+            <div className="list-title"> Hair </div>
             <div className="list">
               {getArrayPart(73).map((item) => (
                 <button onClick={() => setHair(item)} className="image">
@@ -226,7 +226,7 @@ function App() {
           </div>
 
           <div className="list-wrapper">
-            <div className="list-title"> CLOTHING LAYER 1 </div>
+            <div className="list-title"> Clothing Layer 1 </div>
             <div className="list">
               {getArrayPart(5).map((item) => (
                 <button onClick={() => setClothing1(item)} className="image">
@@ -241,7 +241,7 @@ function App() {
           </div>
 
           <div className="list-wrapper">
-            <div className="list-title"> CLOTHING LAYER 2 </div>
+            <div className="list-title"> Clothing layer 2 </div>
             <div className="list">
               {getArrayPart(5).map((item) => (
                 <button onClick={() => setClothing2(item)} className="image">
@@ -256,7 +256,7 @@ function App() {
           </div>
 
           <div className="list-wrapper">
-            <div className="list-title"> CLOTHING LAYER 3 </div>
+            <div className="list-title"> Clothing layer 3 </div>
             <div className="list">
               {getArrayPart(9).map((item) => (
                 <button onClick={() => setClothing3(item)} className="image">
@@ -271,7 +271,7 @@ function App() {
           </div>
 
           <div className="list-wrapper">
-            <div className="list-title"> MOUTH </div>
+            <div className="list-title"> Mouth </div>
             <div className="list">
               {getArrayPart(24).map((item) => (
                 <button onClick={() => setMouth(item)} className="image">
@@ -286,7 +286,7 @@ function App() {
           </div>
 
           <div className="list-wrapper">
-            <div className="list-title"> FACIAL HAIR </div>
+            <div className="list-title"> Facial hair </div>
             <div className="list">
               {getArrayPart(18).map((item) => (
                 <button onClick={() => setFacialHair(item)} className="image">
@@ -303,7 +303,7 @@ function App() {
           </div>
 
           <div className="list-wrapper">
-            <div className="list-title"> EYEBROWS</div>
+            <div className="list-title"> Eyebrows </div>
             <div className="list">
               {getArrayPart(15).map((item) => (
                 <button onClick={() => setEyebrows(item)} className="image">
@@ -320,7 +320,7 @@ function App() {
           </div>
 
           <div className="list-wrapper">
-            <div className="list-title"> GLASSES </div>
+            <div className="list-title"> Glasses </div>
             <div className="list">
               {getArrayPart(18).map((item) => (
                 <button onClick={() => setGlasses(item)} className="image">
@@ -335,7 +335,7 @@ function App() {
           </div>
 
           <div className="list-wrapper">
-            <div className="list-title"> EARRINGS </div>
+            <div className="list-title"> Earrings </div>
             <div className="list">
               {getArrayPart(33).map((item) => (
                 <button onClick={() => setEarrings(item)} className="image">
@@ -352,7 +352,7 @@ function App() {
           </div>
 
           <div className="list-wrapper">
-            <div className="list-title"> HAT </div>
+            <div className="list-title"> Hat </div>
             <div className="list">
               {getArrayPart(29).map((item) => (
                 <button onClick={() => setHat(item)} className="image">
@@ -367,7 +367,7 @@ function App() {
           </div>
 
           <div className="list-wrapper">
-            <div className="list-title"> NECKWEAR </div>
+            <div className="list-title"> Neckwear </div>
             <div className="list">
               {getArrayPart(19).map((item) => (
                 <button onClick={() => setNeckWear(item)} className="image">
