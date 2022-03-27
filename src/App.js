@@ -145,7 +145,7 @@ function App() {
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + getImgSource("eyesbrows", eyebrows)}
+              src={process.env.PUBLIC_URL + getImgSource("eyebrows", eyebrows)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
