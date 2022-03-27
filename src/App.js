@@ -138,7 +138,7 @@ function App() {
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + "./character/noses.1.png"}
+              src={process.env.PUBLIC_URL + "./character/noses/1.png"}
               alt=""
               width="250"
               style={{ position: "absolute" }}
