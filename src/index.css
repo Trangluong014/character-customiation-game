@@ -167,6 +167,9 @@ code {
     width: 60px;
     height: 60px;
   }
+  .random {
+    margin-top: 10px;
+  }
 }
 
 @media (max-height: 1370px) and (max-width: 1023px) {
