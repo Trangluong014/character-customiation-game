@@ -89,100 +89,98 @@ function App() {
         <div className="avatar-wrapper">
           <div className="avatar">
             <img
-              src={process.env.PUBLIC_URL + getImgSource("body", body)}
+              src={getImgSource("body", body)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + getImgSource("eyes", eyes)}
+              src={getImgSource("eyes", eyes)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + getImgSource("hair", hair)}
+              src={getImgSource("hair", hair)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + getImgSource("layer_1", clothing1)}
+              src={getImgSource("layer_1", clothing1)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + getImgSource("layer_2", clothing2)}
+              src={getImgSource("layer_2", clothing2)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + getImgSource("layer_3", clothing3)}
+              src={getImgSource("layer_3", clothing3)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + getImgSource("mouths", mouth)}
+              src={getImgSource("mouths", mouth)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + "./character/noses/1.png"}
+              src={"./character/noses/1.png"}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + getImgSource("eyebrows", eyebrows)}
+              src={getImgSource("eyebrows", eyebrows)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={
-                process.env.PUBLIC_URL + getImgSource("facial_hair", facialHair)
-              }
+              src={getImgSource("facial_hair", facialHair)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + getImgSource("earrings", earrings)}
+              src={getImgSource("earrings", earrings)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + getImgSource("glasses", glasses)}
+              src={getImgSource("glasses", glasses)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + getImgSource("hats", hat)}
+              src={getImgSource("hats", hat)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
             ></img>
 
             <img
-              src={process.env.PUBLIC_URL + getImgSource("neckwear", neckWear)}
+              src={getImgSource("neckwear", neckWear)}
               alt=""
               width="250"
               style={{ position: "absolute" }}
@@ -205,7 +203,7 @@ function App() {
                   className={body === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={process.env.PUBLIC_URL + getImgSource("body", item)}
+                    src={getImgSource("body", item)}
                     alt=""
                     height="60"
                   ></img>
@@ -223,7 +221,7 @@ function App() {
                   className={eyes === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={process.env.PUBLIC_URL + getImgSource("eyes", item)}
+                    src={getImgSource("eyes", item)}
                     alt=""
                     height="60"
                   ></img>
@@ -241,7 +239,7 @@ function App() {
                   className={hair === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={process.env.PUBLIC_URL + getImgSource("hair", item)}
+                    src={getImgSource("hair", item)}
                     alt=""
                     height="60"
                   ></img>
@@ -259,7 +257,7 @@ function App() {
                   className={clothing1 === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={process.env.PUBLIC_URL + getImgSource("layer_1", item)}
+                    src={getImgSource("layer_1", item)}
                     alt=""
                     height="60"
                   ></img>
@@ -277,7 +275,7 @@ function App() {
                   className={clothing2 === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={process.env.PUBLIC_URL + getImgSource("layer_2", item)}
+                    src={getImgSource("layer_2", item)}
                     alt=""
                     height="60"
                   ></img>
@@ -295,7 +293,7 @@ function App() {
                   className={clothing3 === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={process.env.PUBLIC_URL + getImgSource("layer_3", item)}
+                    src={getImgSource("layer_3", item)}
                     alt=""
                     height="60"
                   ></img>
@@ -313,7 +311,7 @@ function App() {
                   className={mouth === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={process.env.PUBLIC_URL + getImgSource("mouths", item)}
+                    src={getImgSource("mouths", item)}
                     alt=""
                     height="60"
                   ></img>
@@ -331,9 +329,7 @@ function App() {
                   className={facialHair === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={
-                      process.env.PUBLIC_URL + getImgSource("facial_hair", item)
-                    }
+                    src={getImgSource("facial_hair", item)}
                     alt=""
                     height="60"
                   ></img>
@@ -351,9 +347,7 @@ function App() {
                   className={eyebrows === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={
-                      process.env.PUBLIC_URL + getImgSource("eyebrows", item)
-                    }
+                    src={getImgSource("eyebrows", item)}
                     alt=""
                     height="60"
                   ></img>
@@ -371,7 +365,7 @@ function App() {
                   className={glasses === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={process.env.PUBLIC_URL + getImgSource("glasses", item)}
+                    src={getImgSource("glasses", item)}
                     alt=""
                     height="60"
                   ></img>
@@ -389,9 +383,7 @@ function App() {
                   className={earrings === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={
-                      process.env.PUBLIC_URL + getImgSource("earrings", item)
-                    }
+                    src={getImgSource("earrings", item)}
                     alt=""
                     height="60"
                   ></img>
@@ -409,7 +401,7 @@ function App() {
                   className={hat === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={process.env.PUBLIC_URL + getImgSource("hats", item)}
+                    src={getImgSource("hats", item)}
                     alt=""
                     height="60"
                   ></img>
@@ -427,9 +419,7 @@ function App() {
                   className={neckWear === item ? "choosen-img" : "image"}
                 >
                   <img
-                    src={
-                      process.env.PUBLIC_URL + getImgSource("neckwear", item)
-                    }
+                    src={getImgSource("neckwear", item)}
                     alt=""
                     height="60"
                   ></img>
